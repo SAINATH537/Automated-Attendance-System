@@ -2,7 +2,7 @@ import cv2
 import os
 
 os.makedirs("logs",exist_ok=True)
-cap=cv2.VideoCapture(0)
+cap=cv2.VideoCapture(0) #If using an IP camera, use cv2.VideoCapture("rtsp://username:pass@ip:554/stream").
 
 if not cap.isOpened():
     print("ERROR: Cannot open camera. Try changing device index (0/1) or use RTSP URL.")
