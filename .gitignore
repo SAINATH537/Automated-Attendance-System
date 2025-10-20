@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+.env
+models/
+dataset/
+*.sqlite3
+.DS_Store
+logs/
